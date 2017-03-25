@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="matrix.weathernow.Rankings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@android:color/background_light">
+
+    <TextView
+        android:text="RANKINGS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:textSize="50sp"
+        android:textStyle="normal|bold|italic"
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Update List"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/rankButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+        <ListView
+            android:id="@+id/rankList"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_above="@+id/rankButton"
+            android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+
+</FrameLayout>

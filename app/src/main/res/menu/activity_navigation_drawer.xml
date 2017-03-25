@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_map"
+        android:title="Home" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile"
+        android:title="My Profile" />
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ic_rank"
+        android:title="Ranking" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_send"
+        android:title="About us" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out"
+            android:icon="@drawable/ic_logout"/>
+
+    </group>
+
+
+
+</menu>
